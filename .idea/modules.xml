@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ps_poly/ps_poly.iml" filepath="$PROJECT_DIR$/ps_poly/ps_poly.iml" />
       <module fileurl="file://$PROJECT_DIR$/ps_poly_01.iml" filepath="$PROJECT_DIR$/ps_poly_01.iml" />
     </modules>
   </component>
