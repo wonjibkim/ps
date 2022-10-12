@@ -14,9 +14,10 @@ public class Bak25304 {
             int anf = sc.nextInt();
             int scn = sc.nextInt();
 
-            tf=+anf*scn;
+           tf +=(anf*scn);
 
         }
+
 
         if (money == tf){
             System.out.println("Yes");
