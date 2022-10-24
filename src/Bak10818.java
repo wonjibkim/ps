@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Bak10818 {
@@ -15,6 +16,12 @@ public class Bak10818 {
         for (int i = 0 ; i <N; i++) {
             num[i] = sc.nextInt(); // 배열에 숫자 넣기
         }
+
+        Arrays.sort(num);
+
+        System.out.println("최소"+num[0]+"최대"+num[num.length]);
+
+
 
 
 
