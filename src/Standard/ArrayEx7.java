@@ -10,7 +10,14 @@ public class ArrayEx7 {
         }
         System.out.println();
         for(int i = 0; i<100; i++){
+            int n = (int)(Math.random() * 10);
+            int tmp = numArr[0];
+            numArr[0] = numArr[n];
+            numArr[n] = tmp;
+        }
 
+        for (int i = 0; i < numArr.length ; i++) {
+            System.out.println(numArr[i]);
         }
     }
 }
